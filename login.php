@@ -29,7 +29,7 @@ header("location:index.php?page=home");
 	}
 	#login-right{
 		position: absolute;
-		 right:0;
+		right:0;
 		width:50%;
 		height: calc(100%);
 		background:white;
