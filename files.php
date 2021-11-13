@@ -70,8 +70,8 @@ a.custom-menu-list span.icon{
 	<div class="col-lg-12">
 
 		<div class="row">
-			<button class="btn btn-success btn-sm" id="new_folder"><i class="fa fa-plus"></i> New Folder</button>
-			<button class="btn btn-success btn-sm ml-4" id="new_file"><i class="fa fa-upload"></i> Upload File</button>
+			<button class="btn btn-success btn-sm" id="new_folder"><i class="fa fa-plus"></i> Add a New Folder</button>
+			<button class="btn btn-success btn-sm ml-4" id="new_file"><i class="fa fa-upload"></i> Upload a Document</button>
 		</div>
 		<hr>
 		<div class="row">
@@ -86,9 +86,9 @@ a.custom-menu-list span.icon{
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12"><h4><b>Folders</b></h4></div>
+			<div class="col-md-12"><h4><b>Shared Folders</b></h4></div>
 		</div>
-		<hr>
+		<hr> 	
 		<div class="row">
 			<?php 
 			while($row=$folders->fetch_assoc()):
@@ -106,7 +106,7 @@ a.custom-menu-list span.icon{
 				<div class="card-body">
 					<table width="100%">
 						<tr>
-							<th width="40%" class="">Filename</th>
+							<th width="40%" class="">Document Name</th>
 							<th width="20%" class="">Date</th>
 							<th width="40%" class="">Description</th>
 						</tr>

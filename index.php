@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Cinema Seat Reservation</title>
+  <title>FILE MANAGEMENT SYSTEM || Dashboard</title>
  	
 
 <?php
@@ -127,5 +127,8 @@ window._conf = function($msg='',$func='',$params = []){
         $(this).remove();
       })
   })
-</script>	
+</script>
+<?php
+  include'footer.php';
+  ?>
 </html>

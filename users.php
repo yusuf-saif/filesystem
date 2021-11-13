@@ -1,14 +1,14 @@
 
 <nav aria-label="breadcrumb ">
   <ol class="breadcrumb">
-  <li class="breadcrumb-item text-success">Home</li>
+  <li class="breadcrumb-item text-success">Users</li>
   </ol>
 </nav>
 <div class="container-fluid">
 	
 	<div class="row">
 	<div class="col-lg-12">
-			<button class="btn btn-success float-right btn-md" id="new_user"><i class="fa fa-plus"></i> New user</button>
+			<button class="btn btn-success float-right btn-md" id="new_user"><i class="fa fa-plus"></i> Add New user</button>
 	</div>
 	</div>
 	<br>
