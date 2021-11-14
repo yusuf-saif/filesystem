@@ -50,7 +50,7 @@
   <!-- Footer Elements -->
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="contacts.php"> My Contacts</a>
+    <a href="index.php"> FMS</a>
   </div>
   <!-- Copyright -->
 </footer>
