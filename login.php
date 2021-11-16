@@ -22,14 +22,14 @@ header("location:index.php?page=home");
 	    height: calc(100%);
 	    /*background: #007bff;*/
 	}
-	main#main{
+	/* main#main{
 		width:100%;
 		height: calc(100%);
 		background:white;
-	}
+	} */
 	#login-right{
 		position: absolute;
-		right:0;
+		right:24%;
 		width:50%;
 		height: calc(100%);
 		background:white;
@@ -39,7 +39,7 @@ header("location:index.php?page=home");
 	
 	#login-right .card{
 		margin: auto
-	}
+	} 
 	.logo {
     margin: auto;
     font-size: 8rem;
@@ -53,10 +53,9 @@ header("location:index.php?page=home");
 
   <main id="main" class=" alert-info">
   		
-  		</div>
   		<div id="login-right">
   			<div class="w-100">
-  				<h4 class="text-success text-center"><b>File Management System</b></h4>
+  				<h4 class="text-success text-center"><b>File Management System <br>Login</b></h4>
   				<br>
   			
   			<div class="card col-md-8">
