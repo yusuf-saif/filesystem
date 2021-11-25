@@ -646,6 +646,4 @@ a.custom-menu-list span.icon{
 			}
 		})
 	}
-
->>>>>>> 23a6fbadc662ed94820837445919389a05115e8b
 </script>
